@@ -44,7 +44,7 @@ section#sobre ul {
 }
 
 section#sobre ul.editorial-list li {
-  padding-left: 1.5em
+  padding-left: 1.5em;
 }
 
 section#sobre ul.editorial-list li::before {
@@ -66,4 +66,9 @@ section#sobre ul.socials-list li img {
 
 section#sobre ul.socials-list li:first-child img {
   margin-left: 0;
+}
+
+iframe {
+  max-width: 100%;
+  max-height: auto;
 }
